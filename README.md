@@ -58,7 +58,7 @@ python3 test_ihu_client.py 127.0.0.1 50000
 # Interactive commands:
 IHU> ping      # Send handshake pings
 IHU> setup     # Trigger setup sequence
-IHU> wifi      # Send WiFi password (uses "laikinas" from capture)
+IHU> wifi      # Send WiFi password (uses "laikinas")
 IHU> replay    # Replay full captured sequence
 IHU> quit      # Exit
 ```

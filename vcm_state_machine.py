@@ -43,7 +43,7 @@ class VCMContext:
     setup_trigger_msg: Optional[VCMMessage] = None
     
     # WiFi state
-    wifi_ssid: str = "laikinas"
+    wifi_ssid: str = "testas"  # SSID name
     wifi_password: str = ""
     wifi_connected: bool = False
     
