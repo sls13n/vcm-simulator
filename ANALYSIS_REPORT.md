@@ -149,7 +149,7 @@ a40d05 seq=00 data=0205000000833a32b9ba30b9baa0
 **Trigger**: IHU sends password:
 ```
 a40802 seq=4b data=02020000086c61696b696e617319d195cdd185cc
-                          ^^"laikinas" (SSID/password)
+                          ^^"laikinas" (password)
 ```
 
 **VCM Connection Sequence**:
@@ -183,7 +183,7 @@ Detection: If `data == "02700000"`, it's an ACK - don't respond.
 
 ## Data Encoding Notes
 
-1. SSID "laikinas" appears in password message: `086c61696b696e6173` = length(8) + "laikinas"
+1. Password "laikinas" appears in password message: `086c61696b696e6173` = length(8) + "laikinas"
 2. Status flags observed:
    - `00` = Not connected / Initial
    - `40` = Connected
